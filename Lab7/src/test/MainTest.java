@@ -17,7 +17,7 @@ public class MainTest{
         //set path of msedgedriver.exe path
         js = (JavascriptExecutor) edge;
         System.setProperty("webdriver.edge.driver",
-                "D:\\Software Testing and Quality Assurance\\Selenium\\msedgedriver.exe");
+                "D:\\Software Testing and Quality Assurance\\msedgedriver.exe");
         //Set up options for EdgeDriver
         EdgeOptions options = new EdgeOptions();
         options.addArguments("--remote-allow-origins=*");
